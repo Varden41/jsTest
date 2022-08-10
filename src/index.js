@@ -1,3 +1,7 @@
-import './css/styles.css';
+const postIdToDelete = 1;
 
-const DEBOUNCE_DELAY = 300;
+fetch(`https://jsonplaceholder.typicode.com/posts/${postIdToDelete}`, {
+  method: 'DELETE',
+})
+  .then(() => console.log('Post deleted'))
+  .catch(error => console.log('Error:', error));
