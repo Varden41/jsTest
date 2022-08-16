@@ -1,0 +1,1 @@
+{"mappings":"YAAA,IAAmBA,EAAGC,EAAHD,EAIT,EAJYC,EAIT,EAHXC,QAAQC,KAAKH,EAAIC,GAAGG,SAAS,KACrBJ,EAAIC,GAAGG,SAAS,E","sources":["src/index.js"],"sourcesContent":["function addBinary(a, b) {\n  console.log((a + b).toString(2));\n  return (a + b).toString(2);\n}\naddBinary(9, 5);\n"],"names":["a","b","console","log","toString"],"version":3,"file":"index.c772bba9.js.map"}
